@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["dsti"]
+
+[project]
+name = "d2dmoe"
+version = "0.0.1"
+authors = [
+  { name="Mikołaj Piórczyński", email="m.piorczynski13@gmail.com" }
+]
+description = "Package for efficient transformers inference with dynamic-k Mixture-of-Experts."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "torch>=2.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mpiorczynski/d2dmoe"
