@@ -11,7 +11,7 @@ version = "0.0.1"
 authors = [
   { name="Mikołaj Piórczyński", email="m.piorczynski13@gmail.com" }
 ]
-description = "Package for efficient transformers inference with dynamic-k Mixture-of-Experts."
+description = "Package for efficient inference of Transformer models with D2DMoE"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
